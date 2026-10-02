@@ -1,29 +1,117 @@
 aid: epubtranslator-app
+
 name: EPUB Translator
-description: 'EPUB Translator is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://epubtranslator.app/opengraph-image
+
+description: EPUB Translator provides AI-powered translation of entire EPUB books, preserving chapters, footnotes, and layout. Users upload an
+  EPUB or PDF and receive a fully translated version in the target language, with context-aware chapter translation and original formatting retained.
+  The service targets readers, researchers, and learners who own foreign language books and need accurate, formatted translations for personal
+  use.
+
 url: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-02 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-02'
+
 modified: '2026-10-02'
+
 tags:
+- AI
+- Translation
+- EPUB
+- Book
+- SaaS
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/epubtranslator-app-plans-pricing.yml
+- type: Spectral
+  url: rules/epubtranslator-app-rules.yml
+- type: JSONLD
+  url: json-ld/epubtranslator-app-context.jsonld
+- type: Vocabulary
+  url: vocabulary/epubtranslator-app-vocabulary.yml
+- type: DataModel
+  url: data-model/epubtranslator-app-data-model.yml
+- type: Conformance
+  url: conformance/epubtranslator-app-conformance.yml
+- type: LLMsTxt
+  url: llms/epubtranslator-app-llms.txt
+- type: WellKnown
+  url: well-known/epubtranslator-app-well-known.yml
+- type: Hosts
+  url: hosts/epubtranslator-app-hosts.yml
+- type: Vendors
+  url: vendors/epubtranslator-app-vendors.yml
+- type: DomainSecurity
+  url: security/epubtranslator-app-domain-security.yml
 - type: Website
   url: https://epubtranslator.app/
 - type: Documentation
   url: https://epubtranslator.app/agent-skill
+- type: Pricing
+  url: https://epubtranslator.app/en/pricing
+- type: TermsOfService
+  url: https://epubtranslator.app/en/terms
+- type: PrivacyPolicy
+  url: https://epubtranslator.app/en/privacy-policy
+- type: Blog
+  url: https://epubtranslator.app/en/blog
+- type: Support
+  url: https://epubtranslator.app/en/faq/translation-reading
+
+apis:
+- name: EPUB Translator API
+  description: EPUB Translator provides AI-powered translation of entire EPUB books via a remote MCP server. Users upload an EPUB or PDF and receive
+    a fully translated version in the target language.
+  humanURL: https://epubtranslator.app/agent-skill
+  aid: epubtranslator-app:epub-translator-api
+- aid: epubtranslator-app:epubtranslator-app-api
+  name: EPUB Translator API
+  description: 'EPUB Translator API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-02);
+
+    not the provider''s own document.'
+  humanURL: https://epubtranslator.app/agent-skill/reference.md
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/epubtranslator-app-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/epubtranslator-app-post-apis-file-download-request-schema.json
+
 x-submission-notes: AI EPUB book translation service exposed via a remote MCP server (Meside AI).
-x-submission-probe: root 200; agent-skill 200; llms.txt 200; MCP /mcp 401 (OAuth 2.1); /openapi.json 404;
-  404 probe 404
+
+x-submission-probe: root 200; agent-skill 200; llms.txt 200; MCP /mcp 401 (OAuth 2.1); /openapi.json 404; 404 probe 404
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI or other machine‑readable contract is publicly available; only HTML docs and an MCP endpoint (401) exist.
+  evidence:
+  - url: https://api.epubtranslator.app/openapi.json
+    status: 404
+  checked: '2026-10-02'
+
 x-submitted-by: support@epubtranslator.app (apis.io/add, 2026-10-02)
+x-enrichment:
+  date: '2026-10-02'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

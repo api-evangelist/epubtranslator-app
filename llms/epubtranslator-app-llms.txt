@@ -1,0 +1,94 @@
+# EPUB Translator (epubtranslator.app)
+
+Last updated: 2026-10-02
+
+> EPUB Translator is an AI book translator at https://epubtranslator.app. Upload an EPUB e-book or a text-based PDF, pick one of 18 target languages, see the exact price for that file before paying, then download the whole book with its chapters, formatting and images intact. You pay once per book — there is no subscription. Copyright of the translated content belongs entirely to the uploader.
+
+This file is generated at build time from the product's own sources: the target-language list, the pricing code and the UI locale list. The counts and prices below are the ones the live site uses.
+
+## What is EPUB Translator
+
+EPUB Translator is an AI-powered e-book translation service at https://epubtranslator.app. It translates a complete EPUB chapter by chapter while preserving the original layout, styling and images, and returns a valid EPUB that opens in any reader. An account is required to translate a book; the exact price of that book is shown before any payment step.
+
+### Key Facts
+
+- Supports 18 target languages: Simplified Chinese (简体中文), Traditional Chinese (繁體中文), Japanese (日本語), French (Français), Arabic (العربية), Spanish (Español), Korean (한국어), Vietnamese (Tiếng Việt), Indonesian (Bahasa Indonesia), Polish (Polski), Czech (Čeština), Italian (Italiano), German (Deutsch), Portuguese (Português), Turkish (Türkçe), Russian (Русский), Ukrainian (Українська), English. Source: https://epubtranslator.app/en/supported-languages
+- Accepts EPUB files and text-based PDFs. A PDF is rebuilt into an e-book before translation (paragraphs and chapter headings are reconstructed from the page layout), so the download is always an EPUB. Scanned PDFs have no text layer and are rejected at upload, before any charge. Source: https://epubtranslator.app/en/what-is-epub-translator
+- The source language is detected automatically — there is no source language to pick. Books in any common language can be uploaded. Source: https://epubtranslator.app/en/supported-languages
+- The exact price comes before payment: once you have signed in and uploaded a book, the price for that specific file is shown before any payment step, worked out from the book's own character count rather than an estimate. Source: https://epubtranslator.app/en/pricing
+- Pricing is per book, not a subscription: $0.004–$0.0125 per 1,000 characters, with a $3.99 minimum per book. An 80,000-character novella costs $3.99, a 500,000-character novel about $4.75, and a 1,200,000-character technical manual about $7.90. Source: https://epubtranslator.app/en/pricing
+- Longer books cost less per character: the first 200,000 characters are billed at $0.0125 per 1,000 characters, the next 400,000 at $0.0075, and everything beyond 600,000 at $0.004. The $3.99 minimum per book still applies. Source: https://epubtranslator.app/en/pricing
+- Those are limited-time half-price rates and they run through 2026-10-31 (UTC); the $3.99 minimum per book is not discounted. The regular rate is $0.008–$0.025 per 1,000 characters with a $3.99 minimum per book. Source: https://epubtranslator.app/en/pricing
+- Two output formats: a translated-only EPUB, or a bilingual EPUB in which each original paragraph is followed by its translation — useful for language learners and for checking the translation against the source. Source: https://epubtranslator.app/en/how-epub-translator-works
+- A medium-sized e-book (~100,000 characters) typically finishes in 1–5 minutes. Source: https://epubtranslator.app/en/faq/translation-reading
+- Handles e-books from tens of thousands to well over a million characters while preserving EPUB structure. Source: https://epubtranslator.app/en/how-epub-translator-works
+- Copyright of the translated content fully belongs to the uploader; the platform claims no rights over it. Source: https://epubtranslator.app/en/faq/translation-reading
+- A free Kindle-to-EPUB converter is also available. It runs entirely in the browser, so the file is never uploaded and no account is needed. It detects DRM and refuses those files; it does not remove DRM. Source: https://epubtranslator.app/en/kindle-to-epub
+- The website itself is published in 16 languages (zh, zh-Hant, en, ja, ar, fr, de, ko, vi, id, es, pl, cs, it, pt, tr) at https://epubtranslator.app/{language}, and so is the pricing page. Source: https://epubtranslator.app/en/pricing
+
+### Common Questions
+
+- **What is EPUB Translator?** An AI web service that translates whole EPUB e-books into 18 languages while preserving formatting and structure. [Full FAQ](https://epubtranslator.app/en/faq/translation-reading)
+- **Which languages can it translate into?** Simplified Chinese (简体中文), Traditional Chinese (繁體中文), Japanese (日本語), French (Français), Arabic (العربية), Spanish (Español), Korean (한국어), Vietnamese (Tiếng Việt), Indonesian (Bahasa Indonesia), Polish (Polski), Czech (Čeština), Italian (Italiano), German (Deutsch), Portuguese (Português), Turkish (Türkçe), Russian (Русский), Ukrainian (Українська), English. [Supported languages](https://epubtranslator.app/en/supported-languages)
+- **Do I know what it costs before I pay?** Yes. Sign in, upload your book, and the exact price for that file is shown before any payment step — it is one payment per book, with no subscription. [Pricing](https://epubtranslator.app/en/pricing)
+- **How much does it cost?** $0.004–$0.0125 per 1,000 characters, minimum $3.99 per book, paid once — about $4.75 for a 500,000-character novel. There is no subscription. [Pricing](https://epubtranslator.app/en/pricing)
+- **How long does translation take?** It depends on file size; typically 1–5 minutes for a medium-sized e-book (~100,000 characters). [Full FAQ](https://epubtranslator.app/en/faq/translation-reading)
+- **Will the format be preserved?** Yes — chapters, styling, images and internal links of the original e-book survive translation. [Full FAQ](https://epubtranslator.app/en/faq/translation-reading)
+- **Is it safe to upload my book?** Files are kept until the uploader asks for deletion — there is no automatic expiry. Uploads and downloads travel over HTTPS through signed links that expire, into a private bucket with no public URL; bucket-level server-side encryption is not enabled. EPUB Translator trains no models on uploaded books and does not sell or share them, but chapters are sent to a third-party large language model API to be translated and that provider's own policy reserves the right to train on API inputs and outputs, which is not a promise EPUB Translator can make on another company's behalf. Deletion is by email to support@epubtranslator.app; there is no self-serve delete button. Copyright in the translation belongs entirely to the uploader. [Full answers](https://epubtranslator.app/en/is-it-safe-to-upload-my-book)
+
+### Pricing
+
+Pay per book, once. $0.004–$0.0125 per 1,000 characters with a $3.99 minimum per book; no plan, no recurring charge, and nothing is charged until the book's price has been shown. These are limited-time half-price rates, in effect through 2026-10-31 (UTC); the regular rate is $0.008–$0.025 per 1,000 characters with a $3.99 minimum. For a whole book this works out cheaper than translating it yourself by pasting chapters into a general-purpose chat assistant: there you pay again for the context each new request drags along, and again for every section you redo when the markup breaks. EPUB Translator sends each passage once with only the context it needs and reruns just the chunk that failed — an engineering difference, not a cheaper model. The pricing page exists in all 16 site languages — https://epubtranslator.app/en/pricing in English, https://epubtranslator.app/de/pricing in German, and so on for every language code listed above.
+
+### EPUB Translator vs Direct LLM
+
+Pasting a book into a general-purpose LLM usually breaks the EPUB: context limits force arbitrary cuts, markup comes back inconsistent, and the result is no longer a valid e-book. EPUB Translator combines the same LLM translation quality with engineering safeguards — EPUB-aware segmentation, structure preservation, and validation of the rebuilt file. [Why EPUB Translator vs direct LLM](https://epubtranslator.app/en/why-epubtranslator-vs-direct-llm)
+
+## MCP Server (connect an AI assistant directly)
+
+EPUB Translator runs a remote MCP server, so assistants that speak the Model Context Protocol (Claude Desktop, Cursor, and other MCP clients) can translate books directly. There is no API key to copy: add the endpoint, sign in with Google once in the browser window that opens, and the assistant works against the same account and balance as the website.
+
+- **Endpoint**: https://epubtranslator.app/mcp
+- **Transport**: MCP Streamable HTTP (stateless, JSON responses)
+- **Authentication**: OAuth 2.1 authorization code + PKCE, federated to Google
+- **Tools**: `list_supported_languages`, `create_upload_url`, `translate_epub`, `get_translation_status`, `check_balance`, `get_download_url`, `get_balance`
+- **Typical flow**: pick a target language, hand over the book (upload or a public URL), start the translation, poll status, download the result
+
+## EPUB Translator Agent Skill
+
+EPUB Translator provides an Agent Skill that lets AI coding assistants (Cursor, OpenClaw, Claude Code, etc.) translate EPUB files via API. The Skill documents the full translation flow: pre-upload, upload, check cost, check balance, start translation, poll status, and download.
+
+### How to download and use the Agent Skill
+
+1. **Download the Skill files**: [SKILL.md](https://epubtranslator.app/agent-skill/SKILL.md) and [reference.md](https://epubtranslator.app/agent-skill/reference.md)
+2. **Place files** in your AI assistant's skills directory:
+   - **Cursor**: `.cursor/skills/epubtranslator-api/SKILL.md` and `reference.md`
+   - **OpenClaw**: Add to the appropriate skills folder in your OpenClaw configuration
+   - **Claude Code / other tools**: Place SKILL.md and reference.md where your tool loads agent instructions
+3. **Get an API key**: Log in at https://epubtranslator.app/settings/api-keys and create an API key
+4. **Provide the API key** to your AI assistant when it needs to call the EPUB Translator API
+
+### Agent Skill page
+
+- [EPUB Translator Agent Skill Download](https://epubtranslator.app/agent-skill): Full instructions and download links
+
+## API Overview
+
+- **Base URL**: https://epubtranslator.app
+- **Authentication**: `Authorization: Bearer <api_key>` or `X-Api-Key: <api_key>`
+- **Main endpoints**: `/apis/file/pre-upload`, `/apis/file/upload`, `/apis/file/check`, `/apis/epub-translation/check-balance`, `/apis/epub-translation/start`, `/apis/epub-translation/status`, `/apis/file/download-url`
+- **Target language codes**: `zh`, `zh-Hant`, `ja`, `fr`, `ar`, `es`, `ko`, `vi`, `id`, `pl`, `cs`, `it`, `de`, `pt`, `tr`, `ru`, `uk`, `en`
+- **Output mode**: `outputMode` on `/apis/epub-translation/start` accepts `translated` (default) or `bilingual`
+
+## Links
+
+- [Homepage](https://epubtranslator.app)
+- [Pricing](https://epubtranslator.app/en/pricing)
+- [Supported languages](https://epubtranslator.app/en/supported-languages)
+- [How EPUB Translator works](https://epubtranslator.app/en/how-epub-translator-works)
+- [Why EPUB Translator vs direct LLM](https://epubtranslator.app/en/why-epubtranslator-vs-direct-llm)
+- [FAQ](https://epubtranslator.app/en/faq/translation-reading)
+- [Is it safe to upload my book? — retention, encryption, model training, deletion, copyright](https://epubtranslator.app/en/is-it-safe-to-upload-my-book)
+- [Free Kindle to EPUB converter](https://epubtranslator.app/en/kindle-to-epub)
+- [Agent Skill download](https://epubtranslator.app/agent-skill)
+- [API keys (login required)](https://epubtranslator.app/settings/api-keys)

@@ -1,0 +1,17 @@
+generated: '2026-10-02'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://epubtranslator.app/en/pricing
+sources:
+- https://epubtranslator.app/en/pricing
+- https://epubtranslator.app/zh/pricing
+- https://epubtranslator.app/zh-Hant/pricing
+- https://epubtranslator.app/ja/pricing
+name: EPUB Translator pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Pay per book
+  price_text: $0.004–$0.0125 per 1,000 characters
+  description: One‑time payment per book, minimum $3.99 per book, no subscription.
+docs: https://epubtranslator.app/en/pricing

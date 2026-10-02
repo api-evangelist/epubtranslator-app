@@ -1,0 +1,52 @@
+generated: '2026-10-02'
+method: searched
+source: https://epubtranslator.app/en/privacy-policy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "You may request deletion of your data (see \"Your Rights\" below)."
+        section: "5. Data Retention"
+        note: Users can request deletion of their data.
+  data_retention:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Account data : Retained while your account is active and for a reasonable period after deletion or closure for legal and support purposes"
+        section: "5. Data Retention"
+        note: Describes retention periods for account data.
+  data_residency:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Our service may use infrastructure or providers located outside your country. Where we transfer data from the EU/EEA/UK to countries not deemed adequate by the European Commission, we use appropriate safeguards (e.g., Standard Contractual Clauses) to protect your data."
+        section: "7. International Transfers"
+        note: Addresses cross‑border data transfers and safeguards.
+  subprocessors:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "We may share your data with service providers who help us operate the service (e.g., hosting, AI translation APIs, analytics). These providers are bound by appropriate data protection agreements."
+        section: "6. Data Sharing"
+        note: Indicates use of subprocessors with agreements.
+  incident_notification:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "We take reasonable technical and organizational measures to protect your data against unauthorized access, loss, or alteration. However, no method of transmission or storage is 100% secure."
+        section: "9. Security"
+        note: General security statement; no explicit breach notification policy.
+  ai_transparency:
+    evidence:
+      - source: https://epubtranslator.app/en/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "EPUB Translator is an AI‑powered e‑book translation tool operated by Meside AI (\"we,\" \"our,\" or \"us\")."
+        section: "1. Who We Are"
+        note: Discloses AI nature of service.
