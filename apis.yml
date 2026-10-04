@@ -25,6 +25,13 @@ created: '2026-10-02'
 modified: '2026-10-02'
 
 tags:
+- Artificial Intelligence
+- Translation
+- EPUB
+- Book
+- Software-as-a-Service
+- Company
+tags_raw:
 - AI
 - Translation
 - EPUB
@@ -87,7 +94,8 @@ apis:
   name: EPUB Translator APIs API
   description: The Apis API from EPUB Translator — 1 operation(s) for apis.
   humanURL: https://epubtranslator.app/agent-skill
-  tags:
+  tags: []
+  tags_raw:
   - Apis
   properties:
   - type: OpenAPI
