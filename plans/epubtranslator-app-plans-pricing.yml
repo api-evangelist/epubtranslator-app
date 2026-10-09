@@ -15,3 +15,15 @@ plans:
   price_text: $0.004–$0.0125 per 1,000 characters
   description: One‑time payment per book, minimum $3.99 per book, no subscription.
 docs: https://epubtranslator.app/en/pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Pay per book
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
